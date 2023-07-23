@@ -1,6 +1,6 @@
 # Tomasz Furgala
 
-# zlozonosc O(n(p+ p log p))
+# zlozonosc O(np)
 # petla wykonuje n-p+1 przejsc bo tyle przedzialow rozpatrujemy (z tylu elemnetu sklada sie szukana przez nas suma), 
 # w kazdym przejsciu do tablicy C zapisuje  przedzial ktory bedziemy przeszukiwac, 
 # a nastepnie wywoluje funkcje quick_select do znalezienia k-tego najwiekszego elemnetu tej tablicy
