@@ -7,7 +7,7 @@ from egz1btesty import runtests
 # sprawdzam na koniec mozliwosc skorzystania z telportacji
 # zapisuje wynik best w tablicy DP
 
-# zlozonosc O(nE^2) (chyba)
+# zlozonosc O(nE^2)
 
 
 def planets( D, C, T, E ):
